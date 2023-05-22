@@ -363,7 +363,7 @@ body {
     padding-right: 1vh;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
     .compete_desc {
         font-size: 18px;
     }
@@ -372,7 +372,7 @@ body {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 799px) {
     .compete_desc {
         font-size: 12px;
     }
