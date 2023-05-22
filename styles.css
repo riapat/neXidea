@@ -283,8 +283,9 @@ body {
 
     position:relative;
     width: 45vh;
-    height: 46vh;
+    height: 48vh;
     padding-top: 3vh;
+    padding-bottom: 2vh;
     padding-right: 2vh;
     padding-left: 2vh;
     background: #676CE3;
@@ -299,8 +300,9 @@ body {
 
     position:relative;
     width: 45vh;
-    height: 46vh;
+    height: 48vh;
     padding-top: 3vh;
+    padding-bottom: 2vh;
     padding-right: 2vh;
     padding-left: 2vh;
     background: #4D53D2;
@@ -317,8 +319,9 @@ body {
 
     position:relative;
     width: 45vh;
-    height: 46vh;
+    height: 48vh;
     padding-top: 3vh;
+    padding-bottom: 2vh;
     padding-right: 2vh;
     padding-left: 2vh;
     background: #3036B6;
@@ -363,7 +366,7 @@ body {
     padding-right: 1vh;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 810px) {
     .compete_desc {
         font-size: 18px;
     }
@@ -372,7 +375,7 @@ body {
     }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 809px) {
     .compete_desc {
         font-size: 12px;
     }
