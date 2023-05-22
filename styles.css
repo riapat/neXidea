@@ -628,45 +628,48 @@ body {
 
 
 .break_horizontal1 {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: flex-start;
     width: 100%;
     height:inherit;
     flex-shrink: 1;
     padding-left:2%;
-    white-space: nowrap;
-    animation: scroll 5s linear infinite;
+    overflow: hidden;
 }
 
 .break_horizontal2 {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: flex-start;
     width: 100%;
     height:inherit;
-    padding-right: 12%;
-    white-space: nowrap;
-    animation: scroll 5s linear infinite;
+    flex-shrink: 1;
+    padding-right:12%;
+    overflow: hidden;
 
 }
 
 
 
 .break_horizontal3 {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: flex-start;
     width: 100%;
     height:inherit;
     flex-shrink: 1;
-    padding-right: 2.5%;
-    white-space: nowrap;
-    animation: scroll 5s linear infinite;
+    padding-right:-2.5%;
+    overflow: hidden;
 
+}
+
+.break_horizontal1 span, .break_horizontal2 span, .break_horizontal3 span {
+    white-space: nowrap;
+    animation: scroll 3s linear infinite;
 }
 
 @keyframes scroll {
@@ -674,7 +677,7 @@ body {
       transform: translateX(0%);
     }
     100% {
-      transform: translateX(-30%);
+      transform: translateX(-100%);
     }
   }
 
