@@ -669,7 +669,7 @@ body {
 
 .break_horizontal1 span, .break_horizontal2 span, .break_horizontal3 span {
     white-space: nowrap;
-    animation: scroll 3s linear infinite;
+    animation: scroll 4s linear infinite;
 }
 
 @keyframes scroll {
