@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'satoshiblack';
-    src: url('satoshi-black-webfont.woff2') format('woff2'),
-         url('satoshi-black-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-black-webfont.woff2") format("woff2"),
+         url("https://www.nexidea.io/fonts/satoshi-black-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'satoshiblack_italic';
-    src: url('satoshi-blackitalic-webfont.woff2') format('woff2'),
-         url('satoshi-blackitalic-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-blackitalic-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-blackitalic-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'satoshibold';
-    src: url('satoshi-bold-webfont.woff2') format('woff2'),
-         url('satoshi-bold-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-bold-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-bold-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'satoshibold_italic';
-    src: url('satoshi-bolditalic-webfont.woff2') format('woff2'),
-         url('satoshi-bolditalic-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-bolditalic-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-bolditalic-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -48,8 +48,8 @@
 
 @font-face {
     font-family: 'satoshiitalic';
-    src: url('satoshi-italic-webfont.woff2') format('woff2'),
-         url('satoshi-italic-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-italic-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-italic-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -60,8 +60,8 @@
 
 @font-face {
     font-family: 'satoshilight';
-    src: url('satoshi-light-webfont.woff2') format('woff2'),
-         url('satoshi-light-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-light-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-light-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -72,8 +72,8 @@
 
 @font-face {
     font-family: 'satoshilight_italic';
-    src: url('satoshi-lightitalic-webfont.woff2') format('woff2'),
-         url('satoshi-lightitalic-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-lightitalic-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-lightitalic-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -84,8 +84,8 @@
 
 @font-face {
     font-family: 'satoshimedium';
-    src: url('satoshi-medium-webfont.woff2') format('woff2'),
-         url('satoshi-medium-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-medium-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-medium-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -96,8 +96,8 @@
 
 @font-face {
     font-family: 'satoshimedium_italic';
-    src: url('satoshi-mediumitalic-webfont.woff2') format('woff2'),
-         url('satoshi-mediumitalic-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-mediumitalic-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-mediumitalic-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -108,8 +108,8 @@
 
 @font-face {
     font-family: 'satoshiregular';
-    src: url('satoshi-regular-webfont.woff2') format('woff2'),
-         url('satoshi-regular-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-regular-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-regular-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -120,8 +120,8 @@
 
 @font-face {
     font-family: 'satoshi_variablebold';
-    src: url('satoshi-variable-webfont.woff2') format('woff2'),
-         url('satoshi-variable-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-variable-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-variable-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -132,8 +132,8 @@
 
 @font-face {
     font-family: 'satoshi_variablebold_italic';
-    src: url('satoshi-variableitalic-webfont.woff2') format('woff2'),
-         url('satoshi-variableitalic-webfont.woff') format('woff');
+    src: url("https://www.nexidea.io/fonts/satoshi-variableitalic-webfont.woff2") format('woff2'),
+         url("https://www.nexidea.io/fonts/satoshi-variableitalic-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -145,7 +145,6 @@ body {
   padding: 0;
   overflow: scroll;
   background-color: #09080C;
-  font-family: Satoshi;
 }
 
 .container {
@@ -277,7 +276,7 @@ body {
 
 
 .home_subtitle {
-    font-family: 'Satoshi';
+    font-family: 'satoshibold';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -307,7 +306,7 @@ body {
 .home_descript {
     width: 55%;
 
-    font-family: 'Satoshi';
+    font-family: 'satoshilight';
     font-style: normal;
     font-weight: 300;
     font-size: 23px;
@@ -375,9 +374,8 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 58px;
-
+    font-family: 'satoshiblack';
     text-align: right;
-    letter-spacing: -0.03em;
 
     color: #FFFFFF;
 
@@ -474,7 +472,7 @@ body {
 
 .compete_title {
 
-    font-family: Satoshi;
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
     font-size: 35px;
@@ -490,7 +488,7 @@ body {
 }
 
 .compete_desc {
-    font-family: Satoshi;
+    font-family: 'satoshiregular';
     font-style: normal;
     font-weight:5300;
     font-size: 18px;
@@ -538,7 +536,7 @@ body {
 
 .thesis {
 
-    font-family: 'Satoshi';
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
     font-size: 57.3847px;
@@ -565,7 +563,7 @@ body {
 }
 
 .thesis_desc {
-    font-family: 'Satoshi';
+    font-family: 'satoshiregular';
     font-style: normal;
     font-weight: 200;
     font-size: 22px;
@@ -635,12 +633,10 @@ body {
     justify-content: left;
     width: 100%;
     height:inherit;
-    overflow-x: hidden;
     flex-shrink: 1;
     padding-left:2%;
-
-    transform: translateX(90px);
-    transition: transform 0.75s ease;
+    white-space: nowrap;
+    animation: scroll 5s linear infinite;
 }
 
 .break_horizontal2 {
@@ -650,10 +646,10 @@ body {
     justify-content: left;
     width: 100%;
     height:inherit;
-    overflow-x: hidden;
     padding-right: 12%;
-    transform: translateX(90px);
-    transition: transform 0.75s ease;
+    white-space: nowrap;
+    animation: scroll 5s linear infinite;
+
 }
 
 
@@ -666,18 +662,24 @@ body {
     width: 100%;
     height:inherit;
     flex-shrink: 1;
-    overflow-x: hidden;
     padding-right: 2.5%;
-    transform: translateX(90px);
-    transition: transform 0.75s ease;
+    white-space: nowrap;
+    animation: scroll 5s linear infinite;
+
 }
 
-.break_horizontal1.show, .break_horizontal2.show, .break_horizontal3.show {
-    transform: translateX(0);
-}
+@keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-30%);
+    }
+  }
+
 
 #purple {
-    font-family: 'Satoshi';
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -692,7 +694,7 @@ body {
 }
 
 #normal {
-    font-family: 'Satoshi';
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -732,7 +734,7 @@ body {
 }
 
 .events_title {
-    font-family: 'Satoshi';
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
     font-size: 53.94px;
@@ -750,7 +752,7 @@ body {
 }
 
 .events_desc {
-    font-family: 'Satoshi';
+    font-family: 'satoshilight';
     font-style: normal;
     font-weight: 200;
     font-size: 22px;
@@ -838,7 +840,7 @@ body {
 }
 
 .immerse_desc {
-    font-family: 'Satoshi';
+    font-family: 'satoshiregular';
     font-style: normal;
     font-weight: 100;
     font-size: 15px;
@@ -874,7 +876,7 @@ body {
 }
 
 .ai_atl_desc {
-    font-family: 'Satoshi';
+    font-family: 'satoshiregular';
     font-style: normal;
     font-weight: 100;
     font-size: 15px;
@@ -887,7 +889,7 @@ body {
 }
 
 .upcoming_title {
-    font-family: 'Satoshi';
+    font-family: 'satoshibold';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -908,7 +910,7 @@ body {
 }
 
 .upcoming_desc {
-    font-family: 'Satoshi';
+    font-family: 'satoshiregular';
     font-style: normal;
     font-weight: 100;
     font-size: 15px;
@@ -979,7 +981,7 @@ body {
 }
 
 .shoutout_title {
-    font-family: 'Satoshi';
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
@@ -992,7 +994,7 @@ body {
 }
 
 .shoutout_desc {
-    font-family: 'Satoshi';
+    font-family: 'satoshilight';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -1062,6 +1064,7 @@ body {
 
 .team_title {
     font-style: normal;
+    font-family: 'satoshiblack';
     font-weight: 900;
     font-size: 55px;
     line-height: 150%;
@@ -1126,7 +1129,7 @@ body {
 
   
 .team_name {
-    font-family: 'Satoshi';
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -1140,7 +1143,7 @@ body {
 }
 
 .team_role {
-    font-family: 'Satoshi';
+    font-family: 'satoshilight';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -1153,7 +1156,7 @@ body {
 }
 
 .team_desc {
-    font-family: 'Satoshi';
+    font-family: 'satoshilight';
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
@@ -1167,7 +1170,7 @@ body {
 }
 
 #pushdown {
-    font-family: 'Satoshi';
+    font-family: 'satoshilight';
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
@@ -1271,7 +1274,7 @@ body {
 }
 
 .news_title {
-    font-family: 'Satoshi';
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
     font-size: 53px;
@@ -1359,7 +1362,7 @@ footer {
 }
 
 .contact {
-    font-family: 'Satoshi';
+    font-family: 'satoshibold';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -1371,7 +1374,7 @@ footer {
 }
 
 .email {
-    font-family: 'Satoshi';
+    font-family: 'satoshilight';
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
@@ -1417,7 +1420,7 @@ footer {
 
 .home_feature {
 
-    font-family: 'Satoshi';
+    font-family: 'satoshibold';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;

@@ -111,7 +111,7 @@
 
 
 @font-face {
-    font-family: 'satoshiregular';
+    font-family: 'Satoshi';
     src: url('satoshi-regular-webfont.woff2') format('woff2'),
          url('satoshi-regular-webfont.woff') format('woff');
     font-weight: normal;

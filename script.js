@@ -30,33 +30,6 @@ window.addEventListener("scroll", function() {
     } else {
         thesisDS.classList.remove("show");
     }
-
-    var breakH1 = document.querySelector(".break_horizontal1");
-    var breakH1P = breakH1.getBoundingClientRect().top;
-  
-    if (breakH1P < windowHeight / 1.5) {
-      breakH1.classList.add("show");
-    } else {
-        breakH1.classList.remove("show");
-    }
-
-    var breakH2 = document.querySelector(".break_horizontal2");
-    var breakH2P = breakH2.getBoundingClientRect().top;
-  
-    if (breakH2P < windowHeight / 1.5) {
-      breakH2.classList.add("show");
-    } else {
-        breakH2.classList.remove("show");
-    }
-
-    var breakH3 = document.querySelector(".break_horizontal3");
-    var breakH3P = breakH3.getBoundingClientRect().top;
-  
-    if (breakH3P < windowHeight / 1.5) {
-      breakH3.classList.add("show");
-    } else {
-        breakH3.classList.remove("show");
-    }
     
     var eventT = document.querySelector(".events_title");
     var eventTP = eventT.getBoundingClientRect().top;
