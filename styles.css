@@ -184,6 +184,7 @@ body {
 .header a {
     margin-right: 5vh;
     display: inline-block;
+    font-family: 'satoshiregular';
     text-decoration: none;
     color:#D2D2D2;
 }
