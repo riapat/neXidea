@@ -1264,6 +1264,30 @@ body {
     }
 }
 
+@media screen and (max-width: 650px) {
+    
+    .team_title {
+        font-size: 40px;
+    }
+    .team_name {
+        font-size: 18px;
+    }
+    .team_role {
+        font-size: 12px;
+    }
+    .team_desc {
+        font-size: 10px;
+    }
+    #pushdown {
+        font-size: 10px;
+    }
+
+    .image-overlay {
+        width: 12vh;
+        height: 12vh;
+    }
+}
+
 
 .news {
     position:relative;
