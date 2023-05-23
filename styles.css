@@ -440,6 +440,7 @@ body {
     box-shadow: inset 0px 4px 40px 2px #ACAFE4;
     z-index: 3;
     margin-left: 2vw; /* Add margin to offset the padding on the left */
+    margin-bottom: 1vw;
 }
 
 .invest {
@@ -460,6 +461,7 @@ body {
     background: #4D53D2;
     box-shadow: inset 0px 4px 40px 2px #8B90F2;
     z-index: 3;
+    margin-bottom: 1vw;
 
 }
 
@@ -485,6 +487,8 @@ body {
     box-shadow: inset 0px 4px 40px 2px #6E73E9;
     z-index: 3;
     margin-right: 2vw;
+    margin-bottom: 2vw;
+
 }
 
 
@@ -550,6 +554,22 @@ body {
 
     .compete_title {
         font-size: 20px;
+    }
+
+    .horizontal {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .scale {
+        margin-left: 2vw;
+    }
+
+    .invest {
+        margin-right: 2vw;
     }
 }
 
