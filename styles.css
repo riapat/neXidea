@@ -163,6 +163,7 @@ body {
     z-index: 5;
     opacity: 1;
     transition: opacity 0.5s ease;
+    overflow: hidden;
 }
 
 
@@ -182,7 +183,7 @@ body {
 }
 
 .header a {
-    margin-right: 5vh;
+    margin-right: 1vw;
     display: inline-block;
     font-family: 'satoshiregular';
     text-decoration: none;
@@ -339,7 +340,7 @@ body {
     height: auto;
     background-color: #09080C;
     margin-top:auto;
-    padding-bottom: 8%;
+    padding-bottom: 10%;
     padding-top: 5%;
 }
 
