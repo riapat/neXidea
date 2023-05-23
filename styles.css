@@ -259,20 +259,19 @@ body {
 }
 
 .home_title {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    width:30%;
-    height: 20%;
+    position: relative;
+    padding-top:5vh;
+    padding-bottom: 3vh;
+    width:100%;
+    height: auto;
     background-image: url('assets/NeXidea_full.png');
     background-size:contain;
-    transform: translate(-50%, -50%);
-    padding-top: 5vh;
-    padding-bottom: 3vh;
     background-repeat: no-repeat;
+    background-position: center center;
     z-index: 3;
     align-items: center;
     overflow: hidden;
+    text-align: center;
 
 }
 
