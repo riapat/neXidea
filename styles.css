@@ -261,18 +261,18 @@ body {
 .home_title {
     position: relative;
     padding-top:5vh;
-    padding-bottom: 3vh;
-    width:100%;
+    max-width:60%;
     height: auto;
-    background-image: url('assets/NeXidea_full.png');
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center center;
     z-index: 3;
     align-items: center;
     overflow: hidden;
     text-align: center;
 
+}
+
+.home_title img {
+    max-width: 100%;
+    height: auto;
 }
 
 
