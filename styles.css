@@ -336,9 +336,11 @@ body {
 .about_container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #09080C;
     margin-top:auto;
+    padding-bottom: 8%;
+    padding-top: 5%;
 }
 
 .about_img {
@@ -370,8 +372,8 @@ body {
 
 .about_title {
     position: relative;
-    top: 10%;
-    right: 7%;
+    padding-right: 5%;
+    padding-bottom: 4%;
     font-style: normal;
     font-weight: 900;
     font-size: 58px;
@@ -981,8 +983,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 5% 10%;
-    width: 45%;
+    padding: 5% 8% 8% 8%;
+    width: 55%;
 
 }
 
