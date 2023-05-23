@@ -842,15 +842,19 @@ body {
     height: 10vh;
     margin-top:auto;
     margin-bottom: auto;
-    padding-top: 5vh;
-    padding-bottom: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-basis: 25%;
 
 }
 
+.immerse a  {
+    text-decoration: none;
+}
 .immerse_img {
     
     position: relative;
@@ -919,16 +923,13 @@ body {
     line-height: 150%;
     /* identical to box height, or 81px */
 
-    letter-spacing: -0.03em;
 
     color: #FFFFFF;
     position:relative;
-    left: 5%;
-    padding-top: 5vh;
+    padding-top: 3vh;
     display: flex;
     align-items: center;
     text-align: center;
-    padding-right: 10vh;
 
 }
 
@@ -939,10 +940,8 @@ body {
     font-size: 15px;
     line-height: 150%;
     /* or 38px */
-    text-align: center;
+
     color: #D8D9FF;
-    padding-left: 2vh;
-    padding-right: 10vh;
 
 }
 
