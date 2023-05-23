@@ -1125,7 +1125,8 @@ body {
     width: 40vh;
     height:auto;
     padding-top: 5vh;
-    padding-left: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
     padding-bottom: 2vh;
     overflow: hidden;
 }
