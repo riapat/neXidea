@@ -1083,10 +1083,9 @@ body {
 }
 
 .title_container {
-    text-align: right;
-    padding-right: 7%;
+    text-align: center;
     padding-top: 10vh;
-    padding-bottom: 3%;
+    padding-bottom: 4vh;
 }
 
 .team_title {
@@ -1098,7 +1097,7 @@ body {
     /* identical to box height, or 82px */
 
     display: inline-block;
-    text-align: right;
+    text-align: center;
 
     background: radial-gradient(50% 50% at 50% 50%, rgba(231, 200, 255, 0.9) 0%, #5E5EEB 100%);
     -webkit-background-clip: text;
@@ -1114,9 +1113,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    padding-right: 5%;
-    padding-left: 1%;
+    justify-content: center;
+    padding: 0% 2%;
 }
 
 .member_vertical {
