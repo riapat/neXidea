@@ -412,7 +412,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 85vh;
+    height: auto;
     column-gap:2vh;
 }
 
@@ -422,7 +422,7 @@ body {
     order: 1;
 
     position:relative;
-    width: 45vh;
+    width: 25vw;
     height: 48vh;
     padding-top: 3vh;
     padding-bottom: 2vh;
@@ -439,7 +439,7 @@ body {
     order: 2;
 
     position:relative;
-    width: 45vh;
+    width: 25vw;
     height: 48vh;
     padding-top: 3vh;
     padding-bottom: 2vh;
@@ -458,7 +458,7 @@ body {
     order: 3;
 
     position:relative;
-    width: 45vh;
+    width: 25vw;
     height: 48vh;
     padding-top: 3vh;
     padding-bottom: 2vh;
@@ -734,7 +734,7 @@ body {
     width: 100%;
     height: auto;
     padding-top: 10vh;
-    overflow-x:hidden;
+    overflow:hidden;
 }
 
 .events_title {
@@ -972,6 +972,8 @@ body {
     margin: 0;
     padding: 1% 0%;
     overflow: hidden;
+    width: 100%;
+    height: auto;
 
 }
 
@@ -980,7 +982,7 @@ body {
     flex-direction: column;
     align-items: left;
     padding: 5% 10%;
-    width: 50%;
+    width: 45%;
 
 }
 
@@ -1014,12 +1016,16 @@ body {
     max-width: 100%;
     height: auto;
     margin: 0;
-    transform: scale(0.8);
     right: 0;
-    flex: 1;
     display: flex;
     justify-content: flex-end;
     box-shadow: -10px 10px 0 0 rgba(171, 175, 255, 1), -20px 20px 0 0 rgba(38, 45, 225, 0.58);
+}
+
+.shoutout_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -1038,7 +1044,7 @@ body {
         font-size: 15px;
     }
     .shoutout_title {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
