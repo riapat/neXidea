@@ -342,6 +342,7 @@ body {
     margin-top:auto;
     padding-bottom: 10%;
     padding-top: 5%;
+    overflow: hidden;
 }
 
 .about_img {
@@ -411,12 +412,12 @@ body {
 .horizontal {
     display: flex;
     flex-direction: row;
-    flex-shrink: 1;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
     width: 100%;
     height: auto;
-    column-gap:2vh;
+    gap:2vw;
+    overflow: hidden;
 }
 
 
@@ -425,8 +426,13 @@ body {
     order: 1;
 
     position:relative;
-    width: 25vw;
-    height: 48vh;
+    flex-basis: 25vw;
+    flex-grow:1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-top: 3vh;
     padding-bottom: 2vh;
     padding-right: 2vh;
@@ -434,16 +440,20 @@ body {
     background: #676CE3;
     box-shadow: inset 0px 4px 40px 2px #ACAFE4;
     z-index: 3;
-    align-items: center;
-
+    margin-left: 2vw; /* Add margin to offset the padding on the left */
 }
 
 .invest {
     order: 2;
 
     position:relative;
-    width: 25vw;
-    height: 48vh;
+    flex-basis: 25vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-top: 3vh;
     padding-bottom: 2vh;
     padding-right: 2vh;
@@ -451,8 +461,7 @@ body {
     background: #4D53D2;
     box-shadow: inset 0px 4px 40px 2px #8B90F2;
     z-index: 3;
-    align-items: center;
-    
+
 }
 
 
@@ -461,8 +470,14 @@ body {
     order: 3;
 
     position:relative;
-    width: 25vw;
-    height: 48vh;
+
+    flex-basis: 25vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-top: 3vh;
     padding-bottom: 2vh;
     padding-right: 2vh;
@@ -470,16 +485,16 @@ body {
     background: #3036B6;
     box-shadow: inset 0px 4px 40px 2px #6E73E9;
     z-index: 3;
-    align-items: center;
+    margin-right: 2vw;
 }
 
 
 .compete_title {
 
-    font-family: 'satoshibold';
+    font-family: 'satoshiblack';
     font-style: normal;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 5vw;
     line-height: 125%;
     /* or 30px */
     
@@ -495,7 +510,7 @@ body {
     font-family: 'satoshiregular';
     font-style: normal;
     font-weight:5300;
-    font-size: 18px;
+    font-size: 3vw;
     line-height: 150%;
     /* or 23px */
     
@@ -507,6 +522,7 @@ body {
 
     padding-left: 2vh;
     padding-right: 1vh;
+    padding-bottom: 1vh;
 }
 
 @media screen and (min-width: 830px) {
