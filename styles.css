@@ -813,8 +813,8 @@ body {
 
 .events_horizontal {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
     height:auto;
@@ -859,7 +859,7 @@ body {
 
 .immerse {
     position:relative;
-    width: auto;
+    width: 100%;
     height: 10vh;
     margin-top:auto;
     margin-bottom: auto;
@@ -977,6 +977,11 @@ body {
     /* .upcoming_title {
         font-size: 17px;
     } */
+
+    .events_horizontal {
+        align-items: center;
+    }
+
     .upcoming_desc {
         font-size: 15px;
     }
@@ -990,17 +995,21 @@ body {
 
 @media screen and (max-width: 767px) {
     
-    /* .upcoming_title {
-        font-size: 12px;
-    } */
+    .upcoming_title {
+        font-size: 15px;
+    }
     .upcoming_desc {
-        font-size: 8px;
+        font-size: 12px;
     }
     .ai_atl_desc {
-        font-size: 8px;
+        font-size: 12px;
     }
     .immerse_desc {
-        font-size: 8px;
+        font-size: 12px;
+    }
+
+    #first, #second {
+        flex-basis: 100%;
     }
 }
 
