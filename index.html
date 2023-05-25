@@ -16,21 +16,42 @@
 </head>
 
 <body class="container">
-    <div class="header" id="home">
-        <a href="#home">
+    <div class="header">
+        <a href="#homeID">
             <img src="assets/NX.png" alt="logo">
         </a>
         <div class="spacer"></div>
-        <a href="#aboutID" class="underline-hover">About</a>
-        <a href="#eventsID" class="underline-hover">Events</a>
-        <a href="#teamID" class="underline-hover">Team</a> 
-        <a href="#newsID" class="underline-hover">News</a>
-        <a href="mailto:contact@nex.idea?subject=Inquiry%20on%20NeXidea" class="underline-hover" target="_blank">Contact</a>
+        <nav class="nav">
+            <a href="#aboutID" class="underline-hover">About</a>
+            <a href="#eventsID" class="underline-hover">Events</a>
+            <a href="#teamID" class="underline-hover">Team</a> 
+            <a href="#newsID" class="underline-hover">News</a>
+            <a href="mailto:contact@nex.idea?subject=Inquiry%20on%20NeXidea" class="underline-hover" target="_blank">Contact</a>
+        </nav>
         <div class="spacer"></div>
 
+        <nav class="mobile-menu">
+            <div class="spacer1"></div>
+            <a href="#homeID" class="underline-hover">Home</a>
+            <a href="#aboutID" class="underline-hover">About</a>
+            <a href="#eventsID" class="underline-hover">Events</a>
+            <a href="#teamID" class="underline-hover">Team</a> 
+            <a href="#newsID" class="underline-hover">News</a>
+            <a href="mailto:contact@nex.idea?subject=Inquiry%20on%20NeXidea" class="underline-hover" target="_blank">Contact</a>
+            <div class="spacer1"></div>
+        </nav>
+        
+        <button class="hamburger-button" aria-label="Toggle menu" onclick="toggleMenu()">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+        </button>
+        
+
+        
     </div>
 
-    <div class="home_container"> 
+    <div class="home_container" id="homeID"> 
         <div class="home_image"></div>
         <div class="home_frame"></div>
         <div class="vertical">
@@ -255,7 +276,7 @@
         <div id="orientation">
             <img id="enlarge" src="assets/NX_refined.png" alt="logo">
             <div class="footer_horizontal">
-                <a href="">
+                <a href="https://www.linkedin.com/company/nex-idea/">
                     <img src="assets/linkedin.png" alt="linkedin">
                 </a>
                 <a href="https://www.instagram.com/nex_idea/" target="_blank">
@@ -269,7 +290,7 @@
         
         <div id="verti">
             
-            <a class="home_feature" href="#home">Home</a>
+            <a class="home_feature" href="#homeID">Home</a>
             <a class="email" href="#aboutID">About Us</a>
             <a class="email" href="#eventsID">Events</a>
             <a class="email" href="#teamID">The Team</a>

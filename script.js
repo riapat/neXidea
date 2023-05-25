@@ -76,6 +76,25 @@ window.addEventListener("scroll", function() {
         news.classList.remove("show");
     }
 
+});
+
+
+
+function toggleMenu() {
+  var mobileMenu = document.querySelector('.mobile-menu');
+
+  mobileMenu.classList.toggle('show-mobile-menu');
+
+  var hamburgerButton = document.querySelector('.hamburger-button');
+  hamburgerButton.classList.toggle('active');
+
+  var mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
+  mobileMenuLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+      mobileMenu.classList.remove('show-mobile-menu');
+      hamburgerButton.classList.remove('active');
+    });
   });
 
- 
+  
+}
