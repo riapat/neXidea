@@ -922,7 +922,21 @@ body {
     }
 
     .thesis_desc {
-        font-size: 15px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .thesis {
+        font-size: 40px;
+        padding-top: 2vh;
+    }
+
+    .thesis_desc {
+        font-size: 16px;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-bottom: 7vh;
     }
 }
 
@@ -1137,6 +1151,12 @@ body {
     }
 }
 
+
+@media screen and (max-width: 420px) {
+    .events {
+        padding-top: 6vh;
+    }
+}
 
 .immerse {
     position:relative;
