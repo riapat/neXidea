@@ -824,9 +824,9 @@ body {
         text-align: center;
     
     
-        color: #d6d7f5;
-        z-index: 4;
-        padding-top: 5vh;
+        color: #FFFFFF;
+        z-index: 3;
+        padding-top: 3vh;
         padding-left: 2.5vw;
         padding-right: 2.5vw;
     }
