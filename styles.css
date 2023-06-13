@@ -434,6 +434,8 @@ body {
     z-index: 3;
     padding-top: 3vh;
     margin-bottom: 3vh;
+    padding-left:2.5vw;
+    padding-right:2.5vw;
 }
 
 @media screen and (min-width: 768px) {
