@@ -586,7 +586,7 @@ body {
     transform: translateX(-50%);
     z-index: 3;
     margin: 0 auto;
-    padding-bottom: 10vh;
+    padding-bottom: 8vh;
 }
 
 .vertical_line2 {
@@ -927,6 +927,20 @@ body {
     }
     .thesis_desc {
         font-size: 22px;;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .thesis {
+        padding-top: 6vh;
+
+    }
+
+    .thesis_desc {
+        padding-left: 6vw;
+        padding-right: 6vw;
+        padding-bottom: 5vh;
+        padding-top:2vh;
     }
 }
 
