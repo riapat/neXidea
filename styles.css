@@ -586,8 +586,20 @@ body {
     transform: translateX(-50%);
     z-index: 3;
     margin: 0 auto;
-    padding-bottom: 12vh;
+    padding-bottom: 10vh;
 }
+
+.vertical_line2 {
+    position: relative;
+    width: 0.65vh;
+    height: 10%;
+    background: linear-gradient(to bottom, #6D6DFF,#c2c4f6, #c2c4f6);
+    transform: translateX(-50%);
+    z-index: 3;
+    margin: 0 auto;
+    padding-bottom: 6vh;
+}
+
 
 .horizontal_line {
     position: relative;
@@ -614,10 +626,10 @@ body {
     position: relative;
     width: 0.65vh;
     height: 10%;
-    background: linear-gradient(to bottom, #6D6DFF,#c2c4f6);
+    background-color:#6D6DFF;
     z-index: 3;
     margin: 0 auto;
-    padding-bottom: 10vh;
+    padding-bottom: 8vh;
 }
 
 .vertical_line_right {
@@ -632,7 +644,7 @@ body {
     width: 100%;
     height: auto;
     overflow: hidden;
-    margin-top:4vh;
+    margin-top:3vh;
 }
 
 
@@ -747,7 +759,27 @@ body {
 }
 
 .pathway_title {
-    display:none;
+    display: inline-block;
+        position: relative;
+        font-family: 'satoshiblack';
+        font-style: normal;
+        font-size: 50px;
+        line-height: 125%;
+        letter-spacing: 0.03em;
+        /* or 30px */
+        border-style: solid;
+        border-image: linear-gradient(to bottom,#c2c4f6,#c2c4f6, #6D6DFF) 1;
+        border-width: 0.65vh;
+        text-align: center;
+        align-items: center;
+        padding-top: 1vh;
+        padding-bottom:2vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        color: #e0e1f8;
+        z-index: 5;
+        left: 50%;
+        transform: translateX(-50%);
 }
 
 
@@ -795,12 +827,17 @@ body {
         justify-content: center;
     }
 
+    .pathway_title {
+        
+        font-size: 35px;
+        
+    }
     
 
 }
 
 @media screen and (max-width: 420px) {
-    .horizontal_line,.horizontal_line_container { 
+    .horizontal_line,.horizontal_line_container,.vertical_line2 { 
         display: none;
     }
     
@@ -820,29 +857,6 @@ body {
         margin-top:3vh;
     }
 
-    .pathway_title {
-        display: inline-block;
-        position: relative;
-        font-family: 'satoshiblack';
-        font-style: normal;
-        font-size: 35px;
-        line-height: 125%;
-        letter-spacing: 0.03em;
-        /* or 30px */
-        border-style: solid;
-        border-image: linear-gradient(to bottom,#c2c4f6,#c2c4f6, #6D6DFF) 1;
-        border-width: 0.65vh;
-        text-align: center;
-        align-items: center;
-        padding-top: 1vh;
-        padding-bottom:2vh;
-        padding-left: 2vh;
-        padding-right: 2vh;
-        color: #e0e1f8;
-        z-index: 5;
-        left: 50%;
-        transform: translateX(-50%);
-    }
 
     .compete_title {
         padding-top: 2vh;
