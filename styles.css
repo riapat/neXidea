@@ -792,7 +792,7 @@ body {
     }
 
     .vertical_line, .horizontal_line, .horizontal_line_container {
-        visibility: hidden;
+        display: none;
     }
 }
 
