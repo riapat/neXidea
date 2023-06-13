@@ -746,6 +746,10 @@ body {
     padding-bottom: 3vh;
 }
 
+.pathway_title {
+    display:none;
+}
+
 
 
 
@@ -806,6 +810,25 @@ body {
 
     .invest {
         margin-bottom:3vh;
+    }
+
+    .pathway_title {
+        display:block;
+        font-family: 'satoshiblack';
+        font-style: normal;
+        font-size: 35px;
+        line-height: 125%;
+        letter-spacing: 0.03em;
+        /* or 30px */
+        
+        text-align: center;
+    
+    
+        color: #d6d7f5;
+        z-index: 4;
+        padding-top: 5vh;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
     }
 }
 
