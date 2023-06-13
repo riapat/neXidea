@@ -795,17 +795,18 @@ body {
         display: none;
     }
 
+
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .scale {
-        margin-left: 2vw;
+        padding-bottom: 4vh;
     }
 
     .invest {
-        margin-right: 2vw;
+        padding-bottom:3vh;
     }
-} */
+}
 
 .thesis {
 
