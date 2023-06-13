@@ -777,7 +777,7 @@ body {
         padding-left: 2vh;
         padding-right: 2vh;
         color: #e0e1f8;
-        z-index: 5;
+        z-index: 3;
         left: 50%;
         transform: translateX(-50%);
 }
