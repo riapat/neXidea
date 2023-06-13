@@ -804,29 +804,52 @@ body {
         display: none;
     }
     
-    .scale {
-        margin-bottom: 4vh;
+    .compete {
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
-    .invest {
-        margin-bottom:3vh;
-        padding-top: 1.5vh;
+
+    .scale, .invest {
+        margin-bottom: 4vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .horizontal {
+        margin-top:3vh;
     }
 
     .pathway_title {
-        display:block;
+        display: inline-block;
+        position: relative;
         font-family: 'satoshiblack';
         font-style: normal;
         font-size: 35px;
         line-height: 125%;
         letter-spacing: 0.03em;
         /* or 30px */
-        
+        border-style: solid;
+        border-image: linear-gradient(to bottom,#c2c4f6,#c2c4f6, #6D6DFF) 1;
+        border-width: 0.65vh;
         text-align: center;
-    
+        align-items: center;
         padding-top: 1vh;
-        color: #FFFFFF;
+        padding-bottom:2vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        color: #e0e1f8;
         z-index: 5;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .compete_title {
+        padding-top: 2vh;
+    }
+
+    .compete_desc {
+        padding-top: 2vh;
     }
 }
 
