@@ -810,6 +810,7 @@ body {
 
     .invest {
         margin-bottom:3vh;
+        padding-top: 1.5vh;
     }
 
     .pathway_title {
@@ -823,9 +824,9 @@ body {
         
         text-align: center;
     
-    
+        padding-top: 1vh;
         color: #FFFFFF;
-        z-index: 3;
+        z-index: 5;
     }
 }
 
