@@ -790,6 +790,10 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .vertical_line, .horizontal_line, .horizontal_line_container {
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 600px) {
