@@ -606,7 +606,7 @@ body {
     align-content: center;
     justify-content: center;
     align-self: center;
-    margin-top:-0.75vh;
+    margin-top:-0.65vh;
 }
 
 .vertical_line_left,
@@ -919,6 +919,8 @@ body {
 @media screen and (max-width: 767px) {
     .thesis {
         font-size: 40px;
+        padding-top: 2vh;
+
     }
 
     .thesis_desc {
@@ -927,10 +929,6 @@ body {
 }
 
 @media screen and (max-width: 420px) {
-    .thesis {
-        font-size: 40px;
-        padding-top: 2vh;
-    }
 
     .thesis_desc {
         font-size: 16px;
